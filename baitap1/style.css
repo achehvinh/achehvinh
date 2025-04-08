@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eee;
+}
+
+/* HEADER */
+header {
+  background-color: #fff;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin: 0;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* SURVEY FORM */
+.survey-section {
+  background-color: #333;
+  color: #fcb900;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.survey-box {
+  background-color: #d3f2f2;
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+}
+
+.survey-box input,
+.survey-box select {
+  width: 50%;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.survey-box button {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+}
+
+.section-book {
+  background: #f4f0eb;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.book-nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.book-title {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+.book-cover {
+  width: 200px;
+}
+
+.book-info {
+  max-width: 400px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.book-info p {
+  margin: 10px 0;
+}
+
+.btn.orange {
+  display: inline-block;
+  background: #ffa144;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.book-footer {
+  background: #002f3d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.book-footer .btn.orange {
+  margin-top: 10px;
+}
